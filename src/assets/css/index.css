@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "./components/gallery/card/index.css";
+@import "./components/gallery/container.css";
+@import "./components/gallery/section.css";
+@import "./components/skeleton/index.css";
+@import "./components/modal/index.css";
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9edde;
+}
+
+input {
+  border: 1px solid #606d01;
+  background-color: #fffaf4;
+  padding: 5px 20px 5px 5px;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #606d01;
+}

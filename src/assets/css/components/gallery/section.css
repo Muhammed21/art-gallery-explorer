@@ -1,0 +1,17 @@
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+}
+
+.gallery-section h1 {
+  max-width: 600px;
+  width: 100%;
+  font-family: "Fraunces", serif;
+  font-weight: 350;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #606d01;
+}
